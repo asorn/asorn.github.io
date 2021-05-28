@@ -145,3 +145,58 @@
   }
 
   
+/* 这里是message的样式 */
+
+  .c-message {
+    position: fixed;
+    top: 40px;
+    left: 50%;
+    height: 40px;
+    background: #324558;
+    padding: 0 20px;
+    font-size: 12px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 6px 12px 0 rgba(0,35,90,.36);
+    border-radius: 6px;
+    z-index: 9999;
+  }
+
+  @keyframes messageFadeInDown {
+    0% {
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+    100% {
+        -webkit-transform: none;
+        transform: none
+    }
+  }
+
+  .c-message.messageFadeInDown {
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both -webkit-animation-name：messageFadeInDown;
+    animation-name: messageFadeInDown;
+  }
+
+  @keyframes messageFadeOutUp {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%)
+    }
+  }
+
+  .c-message.messageFadeOutUp {
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both -webkit-animation-name：messageFadeOutUp;
+    animation-name: messageFadeOutUp
+  }

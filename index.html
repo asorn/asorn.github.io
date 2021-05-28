@@ -13,9 +13,9 @@
 
   <!--顶部标题与描述-->
   <div class="design-demo">
-    <h1>Lego UI Icon Demo</h1>
+    <h1>Lego Icon Demo&nbsp;🍬</h1>
     <ul class="design-demo__des">
-      <li>Lego UI 语义化的矢量图形图标库 | Tips：单击可以复制图标名称呢</li>
+      <li>Lego UI 语义化的矢量图形图标库&nbsp;&nbsp;|&nbsp;&nbsp;Tips：单击可以复制图标名称呢&nbsp;&nbsp;|&nbsp;&nbsp;By：Asorn</li>
     </ul>
 
     <!--tab-->
@@ -4780,13 +4780,16 @@
           input.select()
           if (document.execCommand('copy')) {
             document.execCommand('copy')
-            window.alert('图标名称复制成功')
+            // window.alert('图标名称复制成功')
+            $.message('🟢&nbsp;已复制&nbsp;' + iconName.innerText);
           }
           document.body.removeChild(input)
         }
       }
     });
   </script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="./js/message.min.js"></script>
 </body>
 
 </html>
