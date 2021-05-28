@@ -55,7 +55,7 @@
   #tabs li {
     cursor: default;
     height: 48px;
-    width: 33.33%;
+    width: 150px;
     line-height: 48px;
     text-align: center;
     font-size: 16px;
@@ -94,7 +94,7 @@
     width: 100%;
     overflow: hidden;
     clear: both;
-    padding-bottom: 24px;
+    padding: 16px 0 24px 0;
   }
   
   li.design-demo__icon-item {
@@ -103,14 +103,17 @@
     flex-direction: column;
     width: 120px;
     margin: 0;
-    padding: 20px 4px;
+    padding: 20px 0px;
   }
 
   li.design-demo__icon-item:hover {
     cursor: pointer;
-    background: #fff;
+    background: #f7fafd;
     border-radius: 12px 0 12px 0;
-    box-shadow: 0 6px 18px 0 rgba(0,35,90,.08), 0 0 2px 0 rgba(0,35,90,.06);
+    box-shadow: 0 6px 16px 0 rgba(0,35,90,.08), 0 0 2px 0 rgba(0,35,90,.06);
+    -webkit-transition: all 0.18s ease-in-out;
+    -moz-transition: all 0.18s ease-in-out;
+    transition: all 0.18s ease-in-out;
   }
 
   li.design-demo__icon-item .icon {
@@ -126,7 +129,7 @@
   }
 
    li.design-demo__icon-item:hover .icon {
-    font-size: 48px;
+    font-size: 40px;
   }
 
   li.design-demo__icon-item .name{
