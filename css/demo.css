@@ -130,6 +130,7 @@
 
    li.design-demo__icon-item:hover .icon {
     font-size: 40px;
+    color: #00aa72;
   }
 
   li.design-demo__icon-item .name{
