@@ -4767,13 +4767,15 @@
       const icons =  document.querySelectorAll(".design-demo__icon-item")
       console.log('icons', icons)
       //给每个li绑定事件
+
       for(let i = 0; i < icons.length; i++){
+
+        //获取图标名称
         icons[i].onclick = (e) => {
           //弹出对应的li节点里面的内容
           console.log(e.currentTarget)
           const iconName = e.currentTarget.querySelector('.name')
           console.log(iconName)
-
           const input = document.createElement('input')
           document.body.appendChild(input)
           input.setAttribute('value', iconName.innerText)
@@ -4785,6 +4787,25 @@
           }
           document.body.removeChild(input)
         }
+
+        // 获取svg源码
+        // icons[i].ondblclick = (e) => {
+        //     //弹出对应的li节点里面的内容
+        //     console.log(e.currentTarget)
+        //     const iconSvg = e.currentTarget.querySelector('.svg-icon')
+        //     var svgString = new XMLSerializer().serializeToString(e.currentTarget.querySelector('.svg-icon'));
+        //     console.log(iconSvg, svgString)
+        //     const input = document.createElement('input')
+        //     document.body.appendChild(input)
+        //     input.setAttribute('value', svgString)
+        //     input.select()
+        //     if (document.execCommand('copy')) {
+        //       document.execCommand('copy')
+        //       // window.alert('Svg复制成功')
+        //       $.message('🟢&nbsp;已复制&nbsp;svg代码');
+        //     }
+        //     document.body.removeChild(input)
+        //   }
       }
     });
   </script>
