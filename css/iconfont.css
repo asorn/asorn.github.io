@@ -2209,9 +2209,6 @@
 .biliui-service70:before {
   content: "\e61b";
 }
-.biliui-service71:before {
-  content: "\e61c";
-}
 .biliui-file25-twotone:before {
   content: "\e61d";
 }
@@ -2221,12 +2218,15 @@
 .biliui-abstract11-twotone:before {
   content: "\e61f";
 }
-.biliui-service71-twotone:before {
-  content: "\e620";
-}
 .biliui-service70-twotone:before {
   content: "\e621";
 }
 .biliui-form09-twotone:before {
   content: "\e622";
+}
+.biliui-service71:before {
+  content: "\e623";
+}
+.biliui-service71-twotone:before {
+  content: "\e624";
 }
