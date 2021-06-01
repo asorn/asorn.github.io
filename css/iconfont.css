@@ -2152,14 +2152,8 @@
 .biliui-file23-twotone:before {
   content: "\e600";
 }
-.biliui-file24-twotone:before {
-  content: "\e600";
-}
 .biliui-file11-twotone-1:before {
   content: "\e600";
-}
-.biliui-file25-twotone:before {
-  content: "\e603";
 }
 .biliui-file27-twotone:before {
   content: "\e604";
@@ -2173,26 +2167,11 @@
 .biliui-media02-twotone-1:before {
   content: "\e607";
 }
-.biliui-abstract11-twotone:before {
-  content: "\e608";
-}
-.biliui-service70-twotone:before {
-  content: "\e609";
-}
-.biliui-abstract11:before {
-  content: "\e60a";
-}
 .biliui-file11-1:before {
   content: "\e60b";
 }
 .biliui-file23:before {
   content: "\e60c";
-}
-.biliui-file24:before {
-  content: "\e60d";
-}
-.biliui-file25:before {
-  content: "\e60e";
 }
 .biliui-file26:before {
   content: "\e60f";
@@ -2212,9 +2191,42 @@
 .biliui-media02-1:before {
   content: "\e614";
 }
-.biliui-service70:before {
-  content: "\e615";
-}
 .biliui-material_object42:before {
   content: "\e616";
+}
+.biliui-abstract11:before {
+  content: "\e617";
+}
+.biliui-file24:before {
+  content: "\e618";
+}
+.biliui-file25:before {
+  content: "\e619";
+}
+.biliui-form09:before {
+  content: "\e61a";
+}
+.biliui-service70:before {
+  content: "\e61b";
+}
+.biliui-service71:before {
+  content: "\e61c";
+}
+.biliui-file25-twotone:before {
+  content: "\e61d";
+}
+.biliui-file24-twotone:before {
+  content: "\e61e";
+}
+.biliui-abstract11-twotone:before {
+  content: "\e61f";
+}
+.biliui-service71-twotone:before {
+  content: "\e620";
+}
+.biliui-service70-twotone:before {
+  content: "\e621";
+}
+.biliui-form09-twotone:before {
+  content: "\e622";
 }
