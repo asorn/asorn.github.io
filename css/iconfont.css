@@ -169,9 +169,6 @@
 .biliui-chart01:before {
   content: "\e2ff";
 }
-.biliui-chart02:before {
-  content: "\e300";
-}
 .biliui-chart03:before {
   content: "\e301";
 }
@@ -184,12 +181,6 @@
 .biliui-chart06:before {
   content: "\e304";
 }
-.biliui-chart07:before {
-  content: "\e305";
-}
-.biliui-chart08:before {
-  content: "\e306";
-}
 .biliui-chart11:before {
   content: "\e307";
 }
@@ -198,9 +189,6 @@
 }
 .biliui-chart12:before {
   content: "\e309";
-}
-.biliui-chart09:before {
-  content: "\e30a";
 }
 .biliui-code01:before {
   content: "\e30b";
@@ -1186,25 +1174,13 @@
 .biliui-chart01-twotone:before {
   content: "\e4b0";
 }
-.biliui-chart02-twotone:before {
-  content: "\e4b0";
-}
-.biliui-chart07-twotone:before {
-  content: "\e4b1";
-}
 .biliui-chart13-twotone:before {
   content: "\e4b6";
 }
 .biliui-chart05-twotone:before {
   content: "\e4b7";
 }
-.biliui-chart08-twotone:before {
-  content: "\e4b7";
-}
 .biliui-chart11-twotone:before {
-  content: "\e4b8";
-}
-.biliui-chart09-twotone:before {
   content: "\e4b8";
 }
 .biliui-chart10-twotone:before {
@@ -2152,8 +2128,8 @@
 .biliui-file23-twotone:before {
   content: "\e600";
 }
-.biliui-file11-twotone-1:before {
-  content: "\e600";
+.biliui-file11-twotone:before {
+  content: "\e601";
 }
 .biliui-file27-twotone:before {
   content: "\e604";
@@ -2164,10 +2140,10 @@
 .biliui-media01-twotone:before {
   content: "\e606";
 }
-.biliui-media02-twotone-1:before {
+.biliui-media02-twotone:before {
   content: "\e607";
 }
-.biliui-file11-1:before {
+.biliui-file11:before {
   content: "\e60b";
 }
 .biliui-file23:before {
@@ -2182,13 +2158,13 @@
 .biliui-material_object41:before {
   content: "\e611";
 }
-.biliui-media01-1:before {
+.biliui-media01:before {
   content: "\e612";
 }
-.biliui-service23-1:before {
+.biliui-service23:before {
   content: "\e613";
 }
-.biliui-media02-1:before {
+.biliui-media02:before {
   content: "\e614";
 }
 .biliui-material_object42:before {
@@ -2229,4 +2205,76 @@
 }
 .biliui-service71-twotone:before {
   content: "\e624";
+}
+.biliui-chart02:before {
+  content: "\e625";
+}
+.biliui-service74:before {
+  content: "\e626";
+}
+.biliui-chart15:before {
+  content: "\e627";
+}
+.biliui-chart08:before {
+  content: "\e628";
+}
+.biliui-chart07:before {
+  content: "\e629";
+}
+.biliui-file28:before {
+  content: "\e62b";
+}
+.biliui-file30:before {
+  content: "\e62c";
+}
+.biliui-chart14:before {
+  content: "\e62e";
+}
+.biliui-chart09:before {
+  content: "\e62f";
+}
+.biliui-file29:before {
+  content: "\e630";
+}
+.biliui-chart02-twotone:before {
+  content: "\e631";
+}
+.biliui-chart07-twotone:before {
+  content: "\e632";
+}
+.biliui-chart09-twotone:before {
+  content: "\e633";
+}
+.biliui-chart08-twotone:before {
+  content: "\e634";
+}
+.biliui-chart14-twotone:before {
+  content: "\e635";
+}
+.biliui-chart15-twotone:before {
+  content: "\e636";
+}
+.biliui-service74-twotone:before {
+  content: "\e637";
+}
+.biliui-file28-twotone:before {
+  content: "\e638";
+}
+.biliui-file29-twotone:before {
+  content: "\e63a";
+}
+.biliui-file30-twotone:before {
+  content: "\e63b";
+}
+.biliui-service73-twotone:before {
+  content: "\e63d";
+}
+.biliui-service72-twotone:before {
+  content: "\e63d";
+}
+.biliui-service72:before {
+  content: "\e63f";
+}
+.biliui-service73:before {
+  content: "\e640";
 }
