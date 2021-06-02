@@ -1633,9 +1633,6 @@
 .biliui-operation05-twotone:before {
   content: "\e555";
 }
-.biliui-operation09-twotone:before {
-  content: "\e555";
-}
 .biliui-operation15-twotone:before {
   content: "\e558";
 }
@@ -2277,4 +2274,7 @@
 }
 .biliui-service73:before {
   content: "\e640";
+}
+.biliui-operation09-twotone:before {
+  content: "\e641";
 }
